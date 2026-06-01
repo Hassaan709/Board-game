@@ -6,7 +6,7 @@ const MultiplayerEngine = (function() {
   // Configuration
   const WS_URL = window.location.hostname === 'localhost' 
     ? 'ws://localhost:3000' 
-    : 'wss://your-render-app.onrender.com'; // Replace with your deployed server URL
+    : 'wss://hassaan.hassaanahmad709.workers.dev'; // Replace with your deployed server URL
 
   // State
   let ws = null;
